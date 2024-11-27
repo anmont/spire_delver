@@ -1,0 +1,50 @@
+{
+	"FileVersion": 3,
+	"Version": 151,
+	"VersionName": "2.32.5",
+	"FriendlyName": "Dungeon Architect",
+	"Description": "Build procedural dungeons",
+	"Category": "Procedural",
+	"CreatedBy": "Code Respawn",
+	"CreatedByURL": "https://dungeonarchitect.dev",
+	"DocsURL": "https://docs.dungeonarchitect.dev/unreal",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/1a4ad2a06f174a26af8a29728241ce42",
+	"SupportURL": "",
+	"EngineVersion": "5.4.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "DungeonArchitectRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit"
+		},
+		{
+			"Name": "DungeonArchitectEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "ToolPresets",
+			"Enabled": true
+		},
+		{
+			"Name": "MeshModelingToolset",
+			"Enabled": true
+		},
+		{
+			"Name": "MeshModelingToolsetExp",
+			"Enabled": true
+		},
+		{
+			"Name": "GeometryScripting",
+			"Enabled": true
+		}
+	]
+}
